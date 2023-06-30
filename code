@@ -1,0 +1,139 @@
+pipeline {
+    agent any 
+    stages {
+        stage ("first") {
+         steps {
+             script {
+                 echo "this is alam"
+             }
+         }
+        }
+    stage ("second") {
+        steps {
+            script {
+                echo "alam"
+            }
+        }
+    }
+    stage ("third") {
+        steps {
+            script {
+                echo "vinod"
+            }
+        }
+    }
+    stage ("forth") {
+        steps {
+        script {
+            echo "alam vinod"
+           }   
+        }
+    }
+    stage ("five") {
+        steps {
+            script {
+                    echo "viki alam"
+                }
+            }
+        }
+    stage ("six") {
+        steps ("seven") {
+            script {
+                echo "viki love"
+            }
+        }
+    }
+    stage ("seven") {
+        steps {
+            script {
+                echo "this is viki"
+            }
+        }
+    }
+    stage ("eigth") {
+        steps {
+            script {
+                echo "this is alam"
+            }
+        }
+    }
+    stage ("ninth") {
+        steps {
+            script {
+                echo "alam"
+            }
+        }
+    }
+    stage ("tenth") {
+        steps {
+            script {
+                echo "alam vinod"
+            }
+        }
+    }
+    stage ("lenth") {
+        steps {
+            script {
+                echo "alam"
+            }
+        }
+    }
+    stage ("tevelth") {
+        steps {
+            script {
+                echo "vinod"
+            }
+        }
+    }
+    stage ("thirthinth") {
+        steps {
+            script {
+                echo "viki this is"
+            }
+        }
+    }
+    stage ("fourthinth") {
+        steps {
+            script {
+                echo "alam"
+            }
+        }
+    }
+    stage ("sixtheenth") {
+        steps {
+            script {
+                echo "alam"
+            }
+        }
+    }
+    stage ("seveteenth") {
+        steps {
+            script {
+                echo "alam"
+            }
+        }
+    }
+    stage ("eighiteenth") {
+        steps {
+            script {
+                echo "alam vinod"
+            }
+        }
+    }
+    stage ("vinod") {
+        steps {
+            script {
+                echo "alam vinod"
+            }
+        }
+    }
+    stage  ("twentyth") {
+        steps {
+            script {
+                echo "vinod"
+            }
+        }
+    }
+            
+    }
+}
